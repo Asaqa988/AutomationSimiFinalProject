@@ -1,54 +1,47 @@
-AutomationSimiFinalProject
-This project is a Selenium WebDriver + TestNG automation test suite for practicing different web automation scenarios on the site:
-https://codenboxautomationlab.com/practice/
+# AutomationSimiFinalProject
+
+This project is a **Selenium WebDriver + TestNG** automation test suite for practicing different web automation scenarios on the site:  
+[https://codenboxautomationlab.com/practice/](https://codenboxautomationlab.com/practice/)
 
 It covers:
+- Radio buttons
+- Auto-complete input
+- Dropdown selections
+- Checkboxes
+- Window and tab switching
+- JavaScript alerts and confirms
+- Table interactions
+- Show/Hide and Enable/Disable buttons
+- Mouse hover events
+- Calendar bookings
+- Iframe interactions
+- APK file download testing
 
-Radio buttons
+---
 
-Auto-complete input
+## 🛠 Technologies Used
 
-Dropdown selections
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven (optional for dependency management)
+- ChromeDriver
 
-Checkboxes
+---
 
-Window and tab switching
+## 📂 Project Structure
 
-JavaScript alerts and confirms
-
-Table interactions
-
-Show/Hide and Enable/Disable buttons
-
-Mouse hover events
-
-Calendar bookings
-
-Iframe interactions
-
-APK file download testing
-
-🛠 Technologies Used
-Java
-
-Selenium WebDriver
-
-TestNG
-
-Maven (optional for dependency management)
-
-ChromeDriver
-
-📂 Project Structure
-
-AutomationSimiFinalProject/
-└── src/main/java/AutomationSimiFinalProject/AutomationSimiFinalProject/
-    └── AppTest.java
-📦 Setup Instructions
-Clone the project
+AutomationSimiFinalProject/ └── src/main/java/AutomationSimiFinalProject/AutomationSimiFinalProject/ └── AppTest.java
 
 
-git clone <your-repo-url>
+
+---
+
+## 📦 Setup Instructions
+
+1. **Clone the project**
+   ```bash
+   git clone <your-repo-url>
 Open in your IDE (e.g., Eclipse, IntelliJ)
 
 Install Dependencies
@@ -104,14 +97,3 @@ Priority	Test Name	Description
 13	Calendar	Clicks on the calendar tab and extracts table data.
 14	Iframe	Switches into an iframe and interacts with it.
 15	DownloadApp	Tests clicking a link to download APK files.
-❗ Important Notes
-Randomization is used in some tests (e.g., random radio button, random checkbox selection).
-
-Window and Tab Management are used — make sure your pop-up blocker is disabled.
-
-Some interactions need scrolling — handled via JavaScriptExecutor.
-
-Wait times are introduced using Thread.sleep() for demo purposes; it's recommended to use explicit waits (like WebDriverWait) in real-world projects.
-
-🔥 Author
-Abedalraheem Alsaqqa
